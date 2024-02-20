@@ -1,7 +1,7 @@
 {
-    "name": "AVISHA ROBOT",
+    "name": "SHIVANSH ROBOT",
     "description": "Telegram Group Management Bot.",
-    "logo": "https://telegra.ph/file/2e004afbc4c17d0b130b3.jpg",
+    "logo": "https://telegra.ph/file/d9bddd89a8070632de73e.jpg",
     "keywords": [
        "telegram",
        "modular",
@@ -22,12 +22,12 @@
     "API_ID": {
        "description": "Get this value from my.telegram.org/apps.",
        "required": true,
-       "value": ""
+       "value": "29308061"
     },
     "API_HASH": {
        "description": "Get this value from my.telegram.org/apps.",
        "required": true,
-       "value": ""
+       "value": "462de3dfc98fd938ef9c6ee31a72d099"
     },
     "ALLOW_EXCL": {
        "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -45,12 +45,12 @@
     "EVENT_LOGS": {
        "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
        "required": true,
-       "value": ""
+       "value": "-1002018556839"
     },
     "MONGO_DB_URI": {
        "description": "Required for database connections.",
        "required": true,
-       "value": ""
+       "value": "mongodb+srv://Shukla:Shashank@shukla.vgk1bs1.mongodb.net/?retryWrites=true&w=majority"
     },
     "CASH_API_KEY": {
         "description": " Get your API key from https://www.alphavantage.co/support/#api-key",
@@ -66,17 +66,17 @@
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": ""
+       "value": "6762113050"
     },
     "START_IMG": {
        "description": "Telegraph link of the image which will be shown at start command.",
        "required": true,
-       "value": ""
+       "value": "https://telegra.ph/file/d24262661dda3f1832290.jpg"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit Example - The_support_chat.",
        "required": true,
-       "value": ""
+       "value": "MASTIWITHFRIENDSX"
     },
     "TOKEN": {
        "description": "Get bot token from @BotFather on TG",
