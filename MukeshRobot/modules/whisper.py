@@ -99,8 +99,8 @@ async def ws(event):
 __help__ = """
 ✿ *ᴡʜɪsᴘᴇʀ ɪɴʟɪɴᴇ ғᴜɴᴄᴛɪᴏɴ ғᴏʀ sᴇᴄʀᴇᴛ ᴄʜᴀᴛs* ✿
 
-๏ @AvishaXbot ʏᴏᴜʀ ᴍᴇssᴀɢᴇ @username
-๏ @AvishaxBot @username ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
+๏ @StrangerSuperbot ʏᴏᴜʀ ᴍᴇssᴀɢᴇ @username
+๏ @StrangerSuperbot @username ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 """
 
 __mod_name__ = "ᴡʜɪsᴘᴇʀ"
