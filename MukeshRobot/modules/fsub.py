@@ -156,7 +156,7 @@ __help__="""
    ✿ *ꜱᴇᴛᴜᴘ* ✿
    
    ❍ [ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ](https://t.me/avishaxbot?startgroup=new)
-   ❍ [ᴀᴅᴅ ᴍᴇ ɪɴ your ᴄʜᴀɴɴᴇʟ ᴀꜱ ᴀᴅᴍɪɴ](https://t.me/avishaxbot?startgroup=new)
+   ❍ [ᴀᴅᴅ ᴍᴇ ɪɴ your ᴄʜᴀɴɴᴇʟ ᴀꜱ ᴀᴅᴍɪɴ](https://t.me/StrangerSuperbot?startgroup=new)
  
    ✿ *ᴄᴏᴍᴍᴍᴀɴᴅꜱ* ✿
     
