@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from ShuklaRobot import dispatcher, telethn
-from ShuklaRobot.__main__ import (
+from MukeshRobot import dispatcher, telethn
+from MukeshRobot.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
