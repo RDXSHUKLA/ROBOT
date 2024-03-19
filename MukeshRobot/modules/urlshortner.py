@@ -83,7 +83,7 @@ async def unshort(bot, message):
 __help__ = """
  ❍ ᴍᴀᴋᴇ sʜᴏʀᴛs ᴏғ ᴀ ɢɪᴠᴇɴ ʟɪɴᴋ 
  
- ❍ /short <url> ➛ *ᴇxᴀᴍᴘʟᴇ ⇴ `/short https://t.me/roy_editx`.
+ ❍ /short <url> ➛ *ᴇxᴀᴍᴘʟᴇ ⇴ `/short https://t.me/SHIVANSH474`.
  *"""
 
 __mod_name__ = "sʜᴏʀᴛ"
