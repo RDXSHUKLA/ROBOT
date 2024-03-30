@@ -326,7 +326,7 @@ def info(update: Update, context: CallbackContext):
                                 "ʜᴇᴀʟᴛʜ", url=f"https://t.me/SHIVANSH474"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/mastiwithfriendsx"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/MASTIWITHFRIENDSXD"
                             ),
                         ],
                         [
@@ -352,7 +352,7 @@ def info(update: Update, context: CallbackContext):
                                 "ʜᴇᴀʟᴛʜ", url="https://t.me/SHIVANSH474"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/mastiwithfriendsx"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/MASTIWITHFRIENDSXD"
                             ),
                         ],
                         [
