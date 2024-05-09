@@ -33,8 +33,9 @@ class temp:
     U_NAME = None
     B_NAME = None
 
-def circle(pfp, size=(500, 500)):
+def circle(pfp, size=(500, 500), brightness_factor=10):
     pfp = pfp.resize(size, Image.ANTIALIAS).convert("RGBA")
+pfp = ImageEnhance.Brightness(pfp).enhance(brightness_factor)
     bigsize = (pfp.size[0] * 3, pfp.size[1] * 3)
     mask = Image.new("L", bigsize, 0)
     draw = ImageDraw.Draw(mask)
@@ -45,17 +46,17 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 
-def welcomepic(pic, user, chatname, id, uname):
+def welcomepic(pic, user, chatname, id, uname,brightness_factor=1.3):
     background = Image.open("MukeshRobot/resources/bg.jpg")
     pfp = Image.open(pic).convert("RGBA")
-    pfp = circle(pfp)
+    pfp = circle(pfp,brightness_factor=brightness_factor)
     pfp = pfp.resize((500, 500))
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('MukeshRobot/resources/SwanseaBold-D0ox.ttf', size=60)
     welcome_font = ImageFont.truetype('MukeshRobot/resources/SwanseaBold-D0ox.ttf', size=60)
-    draw.text((630, 300), f'NAME: {user}', fill=(255, 255, 255), font=font)
+    #draw.text((630, 300), f'NAME: {user}', fill=(255, 255, 255), font=font)
     draw.text((630, 450), f'ID: {id}', fill=(255, 255, 255), font=font)
-    draw.text((630, 230), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
+    #draw.text((630, 230), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
     pfp_position = (48, 88)
     background.paste(pfp, pfp_position, pfp)
     background.save(f"downloads/welcome#{id}.png")
@@ -93,7 +94,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             caption=f"""
 **⎊─────☵ ᴡᴇʟᴄᴏᴍᴇ ☵─────⎊**
 
-     {member.chat.title} 
+    {member.chat.title} 
 
 **▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬**
 
