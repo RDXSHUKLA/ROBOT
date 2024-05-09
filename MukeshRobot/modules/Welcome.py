@@ -91,12 +91,20 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-**❀ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ {member.chat.title} ɢʀᴏᴜᴘ ❀
+**⎊─────☵ ᴡᴇʟᴄᴏᴍᴇ ☵─────⎊**
 
-๏ ɴᴀᴍᴇ ➠ {user.mention}
-๏ ɪᴅ ➠ {user.id}
-๏ ᴜsᴇʀɴᴀᴍᴇ ➠ @{user.username}
-๏ ᴍᴀᴅᴇ ʙʏ ➠ [sᴛʀᴀɴɢᴇʀ](https://t.me/SHIVANSH474)**
+     {member.chat.title} 
+
+**▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬**
+
+**☉ ɴᴀᴍᴇ ⧽** {user.mention}
+**☉ ɪᴅ ⧽** `{user.id}`
+**☉ ᴜ_ɴᴀᴍᴇ ⧽** @{user.username}
+**☉ ᴍᴀᴅᴇ ʙʏ ⧽** [sᴛʀᴀɴɢᴇʀ](https://t.me/SHIVANSH474)**
+
+**▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬**
+
+**⎉──────▢✭ 侖 ✭▢──────⎉**
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴠɪᴇᴡ ᴜsᴇʀ ⦿", url=f"https://t.me/{user.username}")]])
         )
